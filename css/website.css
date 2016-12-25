@@ -1,0 +1,280 @@
+
+/*Overall Layout*/
+body {
+	padding-top: 65px;
+}
+body {
+  height: 100%;
+  background-color: #EDEDED;
+}
+body {
+
+  text-align: center;
+}
+
+body #well {
+	background-color: white;
+}
+
+#hometitle{
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*NAV BAR*/
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;;
+}
+/*.navbar-wrapper .navbar .container {
+  width: auto;
+}*/
+
+
+
+/*Home Page*/
+
+.jumbotron {
+	margin-top:80px;
+	background-color: #F5F5F5;
+	box-shadow: 0 1px 3px rgba(0,0,0,.5)
+	}
+
+.jumbotron p{
+	font-color: black;
+	  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	  font-size:40px;
+	  font-style:italic;
+	  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+}
+
+
+#hometitle{
+	font-family: Verdana;
+	color: black;
+	font-size: 30px;
+}
+
+
+#indeximg{
+	width: 25%;
+	height: 25%;
+	border: 5px solid grey;
+	box-shadow:0 1px 3px rgba(0,0,0,.5)
+}
+
+#homeindex img{
+	border: 5px solid grey;
+	width:200px;
+	height:200px;
+/*	box-shadow:0 1px 3px rgba(0,0,0,.5);*/
+
+}
+
+#market {
+	box-shadow:0 1px 3px rgba(0,0,0,.5);
+	padding-bottom:30px;
+	margin-bottom:50px;
+;
+}
+
+/*About Page*/
+
+.well{
+	margin-top: 50px;
+}
+
+.col-lg-7{
+	margin-right:45px;
+	margin-top:55px;
+}
+
+.aboutinfo{
+	margin-top:40px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+.abouttitle{
+	text-align: center;
+	width:800px;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+	padding-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+/*Resume Page*/
+
+.resume{
+	padding-top:40px;
+}
+
+/*Project Page*/
+
+.projectdescription{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.card{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.card-header{
+	display: inline-block;
+	width: 400px;
+	height: 100px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 4px;
+	margin-top:20px;
+}
+
+.card h3{
+	margin-bottom: -10px;
+}
+
+.btn{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+}
+
+#projectimg1 {
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+}
+
+#projectimg2 {
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+}
+
+#projectimg3 {
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+}
+
+#projectimg4 {
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 40px;
+}
+/*Artwork Page*/
+
+#artheader{
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+	padding-bottom:20px;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*Commissions Page*/
+	/*add commission faq, prices, and queues*/
+
+/*Contact Page
+	add general links page, and an email inquiry page*/
+#email{
+	padding-top:80px;
+}
+#websites{
+	padding-top:50px;
+}
+.contacticon{
+	width:5em;
+	height:5em;
+}
+
+/*Remember to Add copyright note on all bottom pages*/
+
+/*Media Queries*/
+
+@media (max-width: 1200px){
+	.thumbnail{
+		width:40%;
+		height:40%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: :20px;
+	}
+}
+
+
+@media (max-width: 768px) {
+  /* Navbar positioning foo */
+    .card{
+  	width:100%;
+  }
+
+  .abouttitle{
+  	width:100%;
+  }
+
+  #artheader{
+  	width:100%;
+  }
+
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 2px;
+  }
